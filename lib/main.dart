@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-void main() async {
+void main() {
   runApp(Container());
   const MethodChannel('my_channel')
       .setMethodCallHandler((MethodCall methodCall) async {
